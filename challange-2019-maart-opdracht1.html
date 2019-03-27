@@ -1,0 +1,21 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="2019-maart.css">
+</head>
+<body>
+ <form id="TheForm">
+    <div class= button>
+	<input id="color" type="text" />
+    <input id="submitColor" value="verstuur" type="button" />
+	</div>
+</form>
+</body>
+    <script>
+    function changeBackground() {
+    var color = document.getElementById("color").value; // cached
+    document.bgColor = color;
+    document.getElementById("coltext").style.color = color;
+}
+document.getElementById("submitColor").addEventListener("click", changeBackground, true);
+    </script>
+</html>

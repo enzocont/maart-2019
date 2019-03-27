@@ -1,0 +1,13 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.button {
+	margin-left: 660px;
+	margin-top: 350px;
+}
+img{
+width: 700px;
+height: 500px;
+}
